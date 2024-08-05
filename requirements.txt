@@ -5,3 +5,4 @@ librosa
 scipy
 pretty_midi
 mir_eval
+resampy
