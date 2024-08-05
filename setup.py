@@ -7,7 +7,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read().splitlines()
 
 setup(
-    name="basic-pitch-torch",
+    name="basic_pitch_torch",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
