@@ -1,0 +1,4 @@
+include README.md
+include requirements.txt
+recursive-include basic_pitch_torch/assets *.pth
+recursive-include test_audio *.wav *.mid
