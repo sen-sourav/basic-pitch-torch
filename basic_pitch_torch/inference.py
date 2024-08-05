@@ -268,7 +268,7 @@ def save_note_events(
 
 def predict(
     audio_path: Union[pathlib.Path, str],
-    model_path: Union[pathlib.Path, str] = "assets/basic_pitch_pytorch_icassp_2022.pth",
+    model_path: Union[pathlib.Path, str] = "basic_pitch_torch/assets/basic_pitch_pytorch_icassp_2022.pth",
     onset_threshold: float = 0.5,
     frame_threshold: float = 0.3,
     minimum_note_length: float = 127.70,

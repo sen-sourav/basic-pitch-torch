@@ -48,4 +48,4 @@ for layer_name in layers_to_load:
     
     print("===============")
 
-torch.save(state_dict, "assets/basic_pitch_pytorch_icassp_2022.pth")
+torch.save(state_dict, "basic_pitch_torch/assets/basic_pitch_pytorch_icassp_2022.pth")
